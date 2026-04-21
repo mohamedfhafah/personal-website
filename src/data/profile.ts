@@ -20,7 +20,7 @@ export const heroContent = {
     { label: "Contact", href: "mailto:mohamedfhafah975@gmail.com", variant: "secondary" },
   ] satisfies ContactLink[],
   meta: {
-    availability: "Available for internships from May 2025",
+    availability: "Open to internships and junior cybersecurity or software roles",
     focus: "Cyber defense • Secure Web • Network automation",
   },
 }
@@ -45,10 +45,10 @@ export const contactDetails = {
   email: "mohamedfhafah975@gmail.com",
   phone: "+33 6 56 67 69 64",
   location: "Marseille, France",
-  availability: "Available for internships from May 2025",
+  availability: "Open to internships and junior cybersecurity or software roles",
   timezone: "CET (UTC+1)",
   socials: [
-    { label: "GitHub", href: "https://github.com/mohamed2003fh", variant: "ghost" },
+    { label: "GitHub", href: "https://github.com/mohamedfhafah", variant: "ghost" },
     { label: "LinkedIn", href: "https://www.linkedin.com/in/mohamedfhafah", variant: "ghost" },
   ] satisfies ContactLink[],
 }
