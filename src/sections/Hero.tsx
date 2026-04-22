@@ -1,7 +1,12 @@
-import { HeroCanvas } from "../components/three/HeroCanvas"
+import { lazy, Suspense } from "react"
 import { Button } from "../components/ui/Button"
 import { heroContent } from "../data/profile"
 import { useI18n } from "../i18n/I18nProvider"
+
+const HeroCanvas = lazy(async () => {
+  const module = await import("../components/three/HeroCanvas")
+  return { default: module.HeroCanvas }
+})
 
 export function HeroSection() {
   const { t } = useI18n()
@@ -10,6 +15,13 @@ export function HeroSection() {
     { href: heroContent.actions[0].href, variant: "primary" as const, label: t.hero.cta_download },
     { href: heroContent.actions[1].href, variant: "secondary" as const, label: t.hero.cta_contact },
   ]
+  const canvasFallback = (
+    <div
+      aria-hidden="true"
+      className="absolute inset-0 bg-[radial-gradient(circle_at_top,_rgba(4,217,196,0.2),_transparent_58%),linear-gradient(180deg,rgba(9,12,23,0.15),rgba(9,12,23,0.7))]"
+    />
+  )
+
   return (
     <header id="hero" className="relative overflow-hidden py-24">
       <div className="mx-auto flex max-w-6xl flex-col gap-12 px-6 lg:flex-row lg:items-center">
@@ -66,7 +78,9 @@ export function HeroSection() {
         <div className="relative flex-1">
           <div className="glass-panel relative w-full max-w-md overflow-hidden p-5">
             <div className="hero-photo-frame relative aspect-[4/5] w-full overflow-hidden rounded-[28px]">
-              <HeroCanvas />
+              <Suspense fallback={canvasFallback}>
+                <HeroCanvas />
+              </Suspense>
               <img
                 src="/assets/images/profile.jpg"
                 alt="Portrait of Mohamed Fhafah"

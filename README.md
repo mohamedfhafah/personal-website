@@ -36,6 +36,14 @@ npm run dev
 npm run build
 ```
 
+## Verification
+
+Use the production build as the primary health check:
+
+```bash
+npm run build
+```
+
 ## Purpose
 
 This repository is the public portfolio codebase used to present academic work, cybersecurity experience, and selected engineering projects to recruiters and collaborators.
