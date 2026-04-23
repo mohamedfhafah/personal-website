@@ -6,7 +6,7 @@ Portfolio website for Mohamed Fhafah, focused on cybersecurity, secure software 
 
 - React 19 + TypeScript + Vite
 - Tailwind-based design system
-- Three.js hero scene with `@react-three/fiber`
+- Animated hero canvas with lightweight 2D rendering
 - Multilingual content (English, French, Arabic)
 - Structured project, experience, education, and blog data
 - CV download and direct contact CTA

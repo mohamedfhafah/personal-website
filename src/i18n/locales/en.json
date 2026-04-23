@@ -215,8 +215,11 @@
     "headline": "Ready for your next security mission.",
     "form": {
       "name": "Name",
+      "namePlaceholder": "Your full name",
       "email": "Email",
+      "emailPlaceholder": "name@company.com",
       "details": "Project details",
+      "detailsPlaceholder": "Share the scope, timeline, and security context.",
       "button": "Open email draft"
     },
     "message": "I respond fastest via email, but you can also reach me on LinkedIn or GitHub if you’d like to learn more about the code powering these projects.",

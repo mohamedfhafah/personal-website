@@ -12,22 +12,6 @@ export default defineConfig({
             return
           }
 
-          if (id.includes("@react-three/drei")) {
-            return "drei-vendor"
-          }
-
-          if (id.includes("@react-three/fiber")) {
-            return "fiber-vendor"
-          }
-
-          if (id.includes("/three/examples/") || id.includes("\\three\\examples\\")) {
-            return "three-examples"
-          }
-
-          if (id.includes("/three/") || id.includes("\\three\\")) {
-            return "three-core"
-          }
-
           if (id.includes("framer-motion")) {
             return "motion-vendor"
           }

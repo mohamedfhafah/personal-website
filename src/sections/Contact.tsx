@@ -73,7 +73,7 @@ export function ContactSection() {
               name="name"
               type="text"
               className="input-surface mt-1 w-full rounded-2xl px-4 py-3"
-              placeholder="Your name"
+              placeholder={t.contact.form.namePlaceholder}
             />
           </div>
           <div>
@@ -86,7 +86,7 @@ export function ContactSection() {
               type="email"
               required
               className="input-surface mt-1 w-full rounded-2xl px-4 py-3"
-              placeholder="you@example.com"
+              placeholder={t.contact.form.emailPlaceholder}
             />
           </div>
           <div>
@@ -98,7 +98,7 @@ export function ContactSection() {
               name="message"
               rows={4}
               className="input-surface mt-1 w-full rounded-2xl px-4 py-3"
-              placeholder="Tell me about the challenge you want to solve."
+              placeholder={t.contact.form.detailsPlaceholder}
             />
           </div>
           <Button type="submit" className="w-full">

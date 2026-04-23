@@ -212,8 +212,11 @@
     "headline": "جاهز لمهمتك الأمنية القادمة.",
     "form": {
       "name": "الاسم",
+      "namePlaceholder": "الاسم الكامل",
       "email": "البريد الإلكتروني",
+      "emailPlaceholder": "name@company.com",
       "details": "تفاصيل المشروع",
+      "detailsPlaceholder": "شارك نطاق العمل والجدول الزمني والسياق الأمني.",
       "button": "فتح بريد إلكتروني"
     },
     "message": "أفضل الرد عبر البريد، ويمكنك أيضاً مراسلتي على LinkedIn أو GitHub للاطلاع على مشاريعي.",

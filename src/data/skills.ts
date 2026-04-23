@@ -20,7 +20,7 @@ export const skillGroups: SkillGroup[] = [
   },
   {
     id: "web",
-    items: ["React", "TypeScript", "Flask", "Tailwind", "Three.js"],
+    items: ["React", "TypeScript", "Flask", "Tailwind", "Framer Motion"],
   },
   {
     id: "dataOps",

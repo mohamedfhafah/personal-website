@@ -48,7 +48,7 @@ export function Footer() {
         </div>
       </div>
       <p className="mt-8 text-center text-xs text-warm/40">
-        © {new Date().getFullYear()} Mohamed Fhafah. Crafted with React 19, Three.js, and secure-by-design thinking.
+        © {new Date().getFullYear()} Mohamed Fhafah. Crafted with React 19, deliberate motion, and secure-by-design thinking.
       </p>
     </footer>
   )

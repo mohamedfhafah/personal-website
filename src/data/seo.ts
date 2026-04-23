@@ -23,7 +23,7 @@ export const siteMeta = {
     "cybersecurity",
     "software engineer",
     "react",
-    "three.js",
+    "secure frontend",
     "network security",
     "flask",
     "java",

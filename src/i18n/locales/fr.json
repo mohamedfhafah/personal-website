@@ -215,8 +215,11 @@
     "headline": "Prêt pour votre prochaine mission cybersécurité.",
     "form": {
       "name": "Nom",
+      "namePlaceholder": "Votre nom complet",
       "email": "Email",
+      "emailPlaceholder": "nom@entreprise.com",
       "details": "Détails du projet",
+      "detailsPlaceholder": "Partagez le périmètre, le timing et le contexte sécurité.",
       "button": "Préparer l’email"
     },
     "message": "Je réponds rapidement par email, mais vous pouvez aussi me joindre sur LinkedIn ou GitHub pour en savoir plus sur mes projets.",
